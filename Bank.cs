@@ -30,13 +30,15 @@ namespace bank_project_new
                     if (userChoice == 1)
                     {
                         Console.Clear();
-                        Console.WriteLine("LISTA WSZYSTKICH KLIENTOW BANKU");
+                        Console.WriteLine("ID | IMIĘ I NAZWISKO | NR KONTA | SALDO");
                         ShowClientsList();
                     }
                     else if (userChoice == 2)
                     {
                         Login();
                         Console.Clear();
+                        Console.WriteLine("PRZELEW ZOSTAŁ WYKONANY");
+                        Console.WriteLine("ID | IMIĘ I NAZWISKO | NR KONTA | SALDO");
                         ShowClientsList();
                         flag = false;
                     }
